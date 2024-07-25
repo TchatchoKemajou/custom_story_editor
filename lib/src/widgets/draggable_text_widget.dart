@@ -23,7 +23,7 @@ class _DraggableTextWidgetState extends State<DraggableTextWidget> with Automati
   FocusNode focusNode = FocusNode();
   final TextEditingController _textEditingController = TextEditingController();
 
-  late final MaterialStatesController _statesController;
+  late final WidgetStatesController _statesController;
 
   /// [isKeyboardFocused] to control keyboard visibility
   bool isKeyboardFocused = false;
@@ -58,13 +58,13 @@ class _DraggableTextWidgetState extends State<DraggableTextWidget> with Automati
     Future.delayed(const Duration(milliseconds: 100), () => focusNode.requestFocus());
 
 
-    _statesController = MaterialStatesController();
+    _statesController = WidgetStatesController();
 
     // Hypothetical listener setup to respond to state changes
 
     _statesController.addListener(() {
-      Set<MaterialState> states = _statesController.value;
-      if (states.contains(MaterialState.focused)) {
+      Set<WidgetState> states = _statesController.value;
+      if (states.contains(WidgetState.focused)) {
 
         /// Listening to field states through [_statesController] and updating positioning and field focus
         if(mounted) {

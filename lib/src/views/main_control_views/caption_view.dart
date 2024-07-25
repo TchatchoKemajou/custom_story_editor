@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 //import 'package:emoji_picker_flutter/emoji_picker_flutter.dart';
-import 'package:flutter/foundation.dart' as foundation;
-import 'package:custom_story_editor/src/theme/style.dart';
-import 'package:font_awesome_flutter/font_awesome_flutter.dart';
+// import 'package:flutter/foundation.dart' as foundation;
+// import 'package:custom_story_editor/src/theme/style.dart';
+// import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
 // CaptionView is a StatelessWidget that provides UI for entering captions and initiating save operations.
 class CaptionView extends StatefulWidget {

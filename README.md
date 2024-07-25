@@ -24,8 +24,6 @@ This package is created using style of the WhatsApp story image/video editor, wi
 
 🚀 More image and video editing functionality like (WhatsApp & Instagram) stories
 
-🚀 The UI is currently like WhatsApp, but I think we should go with something unique for flutter (your contribution & ideas will be very invaluable)
-
 🚀 improve and enhance performance and existing features.
 
 ## Package Demo
