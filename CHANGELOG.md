@@ -1,3 +1,7 @@
+## 1.0.2
+
+- README : section Maintainer refaite — nom complet, LinkedIn, GitHub, Jov's Inc. (`#projets`), email.
+
 ## 1.0.1
 
 - README : retire l'URL pub.dev du titre H1 (cassait l'affichage sur pub.dev).
