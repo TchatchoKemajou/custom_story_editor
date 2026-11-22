@@ -157,13 +157,13 @@ class PaintControlsViewState extends State<PaintControlsView> {
   }
 
   // Helper function to create icons for selecting stroke size.
-  bottomIcon(IconData icon, {VoidCallback? onTap, bool? isSelected}) {
+  Widget bottomIcon(IconData icon, {VoidCallback? onTap, bool? isSelected}) {
     return GestureDetector(
       onTap: onTap,
       child: Container(
         width: 40,
         height: 40,
-        decoration: BoxDecoration(borderRadius: BorderRadius.circular(20), color: Colors.white.withOpacity(.2), border: isSelected == true ? Border.all(width: 1, color: Colors.white) : null),
+        decoration: BoxDecoration(borderRadius: BorderRadius.circular(20), color: Colors.white.withValues(alpha: .2), border: isSelected == true ? Border.all(width: 1, color: Colors.white) : null),
         child: Icon(
           icon,
           size: 30,

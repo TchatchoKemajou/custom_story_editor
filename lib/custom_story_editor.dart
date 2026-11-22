@@ -1,4 +1,7 @@
-library custom_story_editor;
+/// WhatsApp-style story image/video editor for Flutter: multi-select, text,
+/// stickers, filters, freehand drawing, video trimming — all editable
+/// together and returned through an `onSave` callback as a `List<File>`.
+library;
 
 export './src/models/story_custom_text.dart';
 
@@ -145,7 +148,7 @@ class _CustomStoryEditorState extends State<CustomStoryEditor> {
                 builder: (BuildContext context, StoryEditingModes mode, Widget? child) {
                   return PopScope(
                     canPop: mode == StoryEditingModes.none,
-                    onPopInvoked: (bool isSystemPop) {
+                    onPopInvokedWithResult: (bool isSystemPop, Object? _) {
                       // Controlling state
                       // Return to [StoryEditingModes.NONE] state only if selected state is not NONE.
                       if (!isSystemPop) {

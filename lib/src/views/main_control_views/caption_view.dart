@@ -12,7 +12,7 @@ class CaptionView extends StatefulWidget {
   final bool isSaving; // Boolean indicating whether a save operation is in progress.
   final String? hintCaption;
   // Constructor initializing all fields with required annotations for mandatory fields.
-   CaptionView({
+  const CaptionView({
     super.key,
     required this.captionController,
     required this.onSaveClickListener,

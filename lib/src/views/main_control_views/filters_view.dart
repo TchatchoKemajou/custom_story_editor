@@ -91,7 +91,7 @@ class _FiltersViewState extends State<FiltersView> {
                       width: 70,
                       height: 25,
                       padding: const EdgeInsets.symmetric(horizontal: 5, vertical: 5),
-                      decoration: BoxDecoration(color: Colors.black.withOpacity(0.4)),
+                      decoration: BoxDecoration(color: Colors.black.withValues(alpha: 0.4)),
                       child: Text(
                         Consts.filterNames[index],
                         style: const TextStyle(fontWeight: FontWeight.bold, color: Colors.white),

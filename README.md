@@ -106,12 +106,12 @@ The initial release of `custom_story_editor` may have small bugs, and issues. If
 
 ## Maintainer
 
-**[Franck Donald Tchatcho Kemajou](https://www.linkedin.com/in/franck-donald/)** — Fondateur [Jov's Inc.](https://inc.jovs.ca/blog)
+**[Franck Donald Tchatcho Kemajou](https://www.linkedin.com/in/franck-donald/)** — Founder of [Jov's Inc.](https://inc.jovs.ca/blog)
 
 - 💼 LinkedIn — [linkedin.com/in/franck-donald](https://www.linkedin.com/in/franck-donald/)
 - 🐙 GitHub — [@TchatchoKemajou](https://github.com/TchatchoKemajou)
 - 🏢 Jov's Inc. — [inc.jovs.ca/blog](https://inc.jovs.ca/blog)
 - ✉️ Contact — [empereurfranck95@gmail.com](mailto:empereurfranck95@gmail.com)
 
-Issues et PR bienvenus sur le [repo GitHub](https://github.com/TchatchoKemajou/custom_story_editor).
+Issues and PRs welcome on the [GitHub repo](https://github.com/TchatchoKemajou/custom_story_editor).
 

@@ -1,12 +1,21 @@
+## 1.0.3
+
+- Boost pub.dev score:
+  - Replaced all deprecated `Color.withOpacity(x)` calls by `Color.withValues(alpha: x)` (Flutter 3.27+).
+  - Migrated `PopScope.onPopInvoked` to `onPopInvokedWithResult`.
+  - Added library-level dartdoc on `custom_story_editor.dart`.
+  - Small cleanups (added `const` + missing return type) reported by `dart analyze`.
+- Maintainer section translated to English.
+
 ## 1.0.2
 
-- README : section Maintainer refaite — nom complet, LinkedIn, GitHub, Jov's Inc. (`#projets`), email.
+- README: redesigned Maintainer section — full name, LinkedIn, GitHub, Jov's Inc. (`/blog`), email.
 
 ## 1.0.1
 
-- README : retire l'URL pub.dev du titre H1 (cassait l'affichage sur pub.dev).
-- README : retire la section Screenshots dont les images étaient hébergées sur imgur et avaient toutes expiré (mort imgur). Section à ré-ajouter plus tard avec images en local (dans `assets/`).
-- dev : bump `flutter_lints` 3.0.2 → ^6.0.0.
+- README: removed the pub.dev URL from the H1 title (it was breaking the pub.dev rendering).
+- README: removed the Screenshots section whose images were hosted on imgur and had all expired (imgur link rot). To be re-added later with local images (under `assets/`).
+- dev: bumped `flutter_lints` 3.0.2 → ^6.0.0.
 
 ## 1.0.0
 

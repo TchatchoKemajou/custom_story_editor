@@ -131,7 +131,7 @@ class _DraggableTextWidgetState extends State<DraggableTextWidget> with Automati
           children: [
             if (mode == StoryEditingModes.text && isFocusField)
               Container(
-                color: Colors.black.withOpacity(.5),
+                color: Colors.black.withValues(alpha: .5),
               ),
             Positioned(
               left: leftPosition,
