@@ -16,7 +16,6 @@ import 'package:custom_story_editor/src/widgets/draggable_text_widget.dart';
 
 import 'caption_view.dart';
 import 'filter_text_view.dart';
-import 'thumbnail_view.dart';
 import 'top_view.dart';
 
 class MainControlsView extends StatefulWidget {

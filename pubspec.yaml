@@ -1,7 +1,7 @@
 name: custom_story_editor
 description: "This package is custom story image/video editor based on flutter_story_editor, you can edit images and videos. 
 You can add texts, stickers, finger drawing, apply filter, undo,  and fully customizable"
-version: 1.0.0
+version: 1.0.1
 license: MIT
 repository: https://github.com/TchatchoKemajou/custom_story_editor
 homepage: https://github.com/TchatchoKemajou/custom_story_editor
@@ -32,7 +32,7 @@ dependencies:
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  flutter_lints: ^3.0.2
+  flutter_lints: ^6.0.0
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec

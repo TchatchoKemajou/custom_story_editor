@@ -1,4 +1,4 @@
-# custom_story_editor (https://pub.dev/packages/custom_story_editor)
+# custom_story_editor
 
 This package is created using style of the WhatsApp story image/video editor, with which you can edit images and videos both together. You can add texts, stickers, freehand finger drawing, apply filter, and undo. The edited images will be returned in a **onSave** call back as **List of Files**. You can then upload it to some storage or save it locally to your gallery.
 
@@ -97,45 +97,6 @@ add the following code to your `info.plist` file
             }, icon: const Icon(Icons.upload, size: 50,)),
           ),
 ```
-
-## Screenshots
-
-Initial view & Multiple images selected
-
-<p float="left">
-
-  <img src="https://i.imgur.com/plIVQiJ.jpg" width=200 />
-  <img src="https://i.imgur.com/Aw91PkQ.png" width=200 />
-
-</p>
-
-Images & videos together & Apply filters
-
-<p float="left">
-
-  <img src="https://i.imgur.com/XDCMooh.jpg" width=200 />
-  <img src="https://i.imgur.com/S6PlaCM.png" width=200 />
-
-</p>
-
-Crop, scale and rotate & Add draggable stickers
-
-<p float="left">
-
-  <img src="https://i.imgur.com/w7akoHi.jpg" width=200 />
-  <img src="https://i.imgur.com/X3K4pFK.png" width=200 />
-
-</p>
-
-Draw freehand painting over images
-
-<p float="left">
-
-  <img src="https://i.imgur.com/Nm3jgOa.jpg" width=200 />
-  <img src="https://i.imgur.com/5qsogMC.png" width=200 />
-
-</p>
-
 
 ## Must read
 
